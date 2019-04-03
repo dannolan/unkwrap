@@ -7,7 +7,8 @@
   "scripts": {
     "test": "jest",
     "build": "tsc",
-    "cover": "jest --coverage"
+    "cover": "jest --coverage",
+    "update": "jest && tsc && npm publish"
   },
   "keywords": [
     "unknown",
