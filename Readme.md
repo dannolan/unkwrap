@@ -1,6 +1,6 @@
-# Knower
+# Unkwrap
 
-Knower is a Typescript library that makes it easier to deal with `unknown` types so you can make interfaces without contracts a bit more secure. It's currently a pet project that I'm playing with while I figure out better ways to deal with `unknown` types in Typescript. I'll probably be blogging about this too. All in all this was an experiment to get a basic typescript library working with NPM and travis and proper coverage testing.
+Unkwrap (unknown unwrap... sorry) is a Typescript library that makes it easier to deal with `unknown` types so you can make interfaces without contracts a bit more secure. It's currently a pet project that I'm playing with while I figure out better ways to deal with `unknown` types in Typescript. I'll probably be blogging about this too. All in all this was an experiment to get a basic typescript library working with NPM and travis and proper coverage testing.
 
 # To Do
 
@@ -14,13 +14,13 @@ Knower is a Typescript library that makes it easier to deal with `unknown` types
 Use [npm](https://npm.org)
 
 ```bash
-npm install knower
+npm install unwrap
 ```
 
 Use [yarn](https://yarnpkg.com)
 
 ```bash
-yarn add knower
+yarn add unwrap
 ```
 
 ## Usage

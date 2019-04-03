@@ -4,7 +4,7 @@ import {
   getBoolean,
   getObject,
   getArray,
-} from '../src/knower';
+} from '../src/unkwrap';
 
 describe('Testing the cases we have defined for knower', () => {
   it('should be able to extract string cases', () => {

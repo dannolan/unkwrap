@@ -4,4 +4,4 @@ export {
   getBoolean,
   getObject,
   getArray,
-} from './src/knower';
+} from './src/unkwrap';
