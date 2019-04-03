@@ -37,8 +37,8 @@ if (item) {
 
 ## Contact
 
-Email's in the package.json
-[Twitter](https://twitter.com/dannolan)
+- Email's in the package.json
+- [Twitter](https://twitter.com/dannolan)
 
 ## Blogs
 
