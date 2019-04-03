@@ -1,5 +1,5 @@
 {
-  "name": "unwrap",
+  "name": "unkwrap",
   "version": "0.0.1",
   "description": "A utility to make it easier to work with unknown types in Typescript",
   "main": "index.js",
