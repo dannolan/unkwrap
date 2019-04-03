@@ -14,22 +14,22 @@ Unkwrap (unknown unwrap... sorry) is a Typescript library that makes it easier t
 Use [npm](https://npm.org)
 
 ```bash
-npm install unwrap
+npm install unkwrap
 ```
 
 Use [yarn](https://yarnpkg.com)
 
 ```bash
-yarn add unwrap
+yarn add unkwrap
 ```
 
 ## Usage
 
 ```typescript
-// import knower
+import { getString } from 'unkwrap';
 
 const yourinput = 'hello' as unknown;
-const item = knower.getString(yourinput);
+const item = getString(yourinput);
 if (item) {
   // we have done all the string checks for you
 }
