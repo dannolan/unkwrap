@@ -1,0 +1,40 @@
+{
+  "name": "unwrap",
+  "version": "0.0.1",
+  "description": "A utility to make it easier to work with unknown types in Typescript",
+  "main": "index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "jest",
+    "build": "tsc",
+    "cover": "jest --coverage"
+  },
+  "keywords": [
+    "unknown",
+    "typescript"
+  ],
+  "jest": {
+    "transform": {
+      ".(ts|tsx)": "ts-jest"
+    },
+    "testRegex": "(/__tests__/.*|\\.(test|spec))\\.(ts|tsx|js)$",
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js"
+    ]
+  },
+  "author": "Dan Nolan <dan@proxima.io>",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/jest": "^24.0.11",
+    "@typescript-eslint/eslint-plugin": "^1.6.0",
+    "@typescript-eslint/parser": "^1.6.0",
+    "eslint": "^5.16.0",
+    "eslint-config-prettier": "^4.1.0",
+    "jest": "^24.7.0",
+    "ts-jest": "^24.0.1",
+    "typescript": "^3.4.1"
+  },
+  "dependencies": {}
+}

@@ -1,0 +1,78 @@
+{
+    "parser": "@typescript-eslint/parser",
+    "plugins": [
+        "@typescript-eslint"
+    ],
+    "extends": [
+        "plugin:@typescript-eslint/recommended",
+        "prettier",
+        "prettier/@typescript-eslint"
+    ],
+    "parserOptions": {
+        "ecmaFeatures": {
+            "jsx": true
+        },
+        "useJSXTextNode": true,
+        "project": "./tsconfig.json"
+    },
+    "rules": {
+        "@typescript-eslint/class-name-casing": "error",
+        "@typescript-eslint/no-explicit-any": "off",
+        "@typescript-eslint/explicit-member-accessibility": "off",
+        "@typescript-eslint/no-non-null-assertion": "off",
+        "@typescript-eslint/camelcase": "off",
+        "@typescript-eslint/explicit-function-return-type": "off",
+        "@typescript-eslint/no-unused-vars": [
+            "warn",
+            {
+                "ignoreRestSiblings": true,
+                "argsIgnorePattern": "^_"
+            }
+        ],
+        "spaced-comment": [
+            "error",
+            "always"
+        ],
+        "camelcase": "off",
+        "curly": "error",
+        "dot-notation": "error",
+        "guard-for-in": "error",
+        "interface-name-prefix": "never",
+        "max-len": [
+            "error",
+            {
+                "code": 120,
+                "ignoreComments": true
+            }
+        ],
+        "no-bitwise": "error",
+        "no-console": "off",
+        "no-debugger": "error",
+        "no-empty": "error",
+        "no-eval": "error",
+        "no-shadow": "error",
+        "no-fallthrough": "error",
+        "no-trailing-spaces": "error",
+        "no-unused-expressions": "error",
+        "no-use-before-define": "error",
+        "quotes": [
+            "error",
+            "single"
+        ],
+        "jsx-quotes": [
+            "error",
+            "prefer-double"
+        ],
+        "radix": "error",
+        "semi": [
+            "error",
+            "always"
+        ],
+        "default-case": "error",
+        "comma-dangle": [
+            "error",
+            "always-multiline"
+        ],
+        "eqeqeq": "error"
+    }
+}
